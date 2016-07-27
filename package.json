@@ -1,0 +1,19 @@
+{
+  "name": "linkit7688-pin-map",
+  "description": "The GPIO pin map for Linkit Smart 7688 board.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Evan Tseng",
+    "email": "evan@tseng.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanxd/linkit7688-pin-map"
+  },
+  "keywords": [
+    "gpio",
+    "raspberry pi",
+    "linkit"
+  ]
+}
