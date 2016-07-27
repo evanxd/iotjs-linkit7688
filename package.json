@@ -1,7 +1,7 @@
 {
   "name": "linkit7688-pin-map",
   "description": "The GPIO pin map for Linkit Smart 7688 board.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Evan Tseng",
     "email": "evan@tseng.io"
