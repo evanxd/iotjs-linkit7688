@@ -10,13 +10,19 @@ module.exports = {
     group: 'uart2',
     gpio: 20,
     pwm: 2,
-    uart: 'tx'
+    uart: {
+      type: 'tx',
+      index: 2
+    }
   },
   p9: {
     group: 'uart2',
     gpio: 21,
     pwm: 3,
-    uart: 'rx'
+    uart: {
+      type: 'rx',
+      index: 2
+    }
   },
   p10: {
     group: 'i2s',
@@ -50,22 +56,34 @@ module.exports = {
   p16: {
     group: 'uart1',
     gpio: 46,
-    uart: 'rx'
+    uart: {
+      type: 'rx',
+      index: 1
+    }
   },
   p17: {
     group: 'uart1',
     gpio: 45,
-    uart: 'tx'
+    uart: {
+      type: 'tx',
+      index: 1
+    }
   },
   p18: {
     group: 'uart0',
     gpio: 13,
-    uart: 'rx'
+    uart: {
+      type: 'rx',
+      index: 0
+    }
   },
   p19: {
     group: 'uart0',
     gpio: 12,
-    uart: 'tx'
+    uart: {
+      type: 'tx',
+      index: 0
+    }
   },
   p20: {
     group: 'i2c',
