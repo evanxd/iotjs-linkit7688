@@ -1,7 +1,7 @@
 {
   "name": "iotjs-linkit7688",
   "description": "The Linkit Smart 7688 board's pin map.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Evan Tseng",
     "email": "evan@tseng.io"
